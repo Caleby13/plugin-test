@@ -2,7 +2,7 @@ package = "kong-plugin-test"
 version = "1.0-0"
 
 source = {
-  url = "https://github.com/yesinteractive/kong-jwt2header.git"
+  url = "https://https://github.com/Caleby13/plugin-test"
 }
 
 dependencies = {
