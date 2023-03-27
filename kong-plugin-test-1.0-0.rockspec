@@ -1,4 +1,4 @@
-package = "kong-plugin-test"
+package = "plugin-test"
 version = "1.0-0"
 
 source = {
@@ -12,7 +12,7 @@ dependencies = {
 build = {
   type = "builtin",
   modules = {
-    ["kong.plugins.kong-jwt2header.handler"] = "plugin/handler.lua",
-    ["kong.plugins.kong-jwt2header.schema"] = "plugin/schema.lua",
+    ["kong.plugins.plugin-test.handler"] = "plugin/handler.lua",
+    ["kong.plugins.plugin-test.schema"] = "plugin/schema.lua",
   }
 }
